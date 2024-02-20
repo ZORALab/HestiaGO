@@ -1,0 +1,191 @@
+#####################
+# User defined
+#####################
+
+#####################
+# Standard FHS
+#####################
+vendor/
+output/
+/releases/
+!/*/releases/
+
+#####################
+# ZORALab's Monteur
+#####################
+/.monteurFS/
+/.configs/montuer/secrets/
+.bin/
+
+#####################
+# AutomataCI
+#####################
+/SECRETS.toml
+/bin
+/tools
+/tmp
+/log
+/build
+/pkg
+/releases
+/resources/changelog/*/.*
+
+#####################
+# Angular
+#####################
+/out-tsc
+/bazel-out
+cache/
+coverage/
+dist/
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log
+typings
+
+#####################
+# LibreOffice
+#####################
+.~lock*
+
+#####################
+# Python
+#####################
+venv/
+__pycache__
+.coverage
+
+#####################
+# Rust
+#####################
+target/
+*.profraw
+
+#####################
+# Hugo
+#####################
+themes/
+public/
+.hugo_build.lock
+
+#####################
+# LetsEncrypt
+#####################
+certbot.log
+
+#####################
+# Android Studio
+#####################
+/build
+
+#####################
+# vim
+#####################
+4913
+*.swp
+
+#####################
+# C Language
+#####################
+*.d
+!*.d/
+*.o
+*.a
+*.dll
+*.exe
+*.elf
+*.hex
+*.bin
+
+#####################
+# Node
+#####################
+node_modules
+npm-debug.log
+yarn-error.log
+
+#####################
+# Databases
+#####################
+*.db
+
+#####################
+# SQLite
+#####################
+*.sqlite3
+*.sqlite
+*.sqlite-journal
+*.db-journal
+
+#####################
+# GitHub
+#####################
+gh-pages/
+
+#####################
+# Logs
+#####################
+*.log
+
+#####################
+# MacOS specifics
+#####################
+.DS_Store
+Thumbs.db
+
+#####################
+# AWS CLI credential blobs
+#####################
+.aws/credentials
+aws/credentials
+homefolder/aws/credentials
+
+#####################
+# Private RSA SSH keys
+#####################
+/ssh/id_rsa
+/.ssh/personal_rsa
+/config/server_rsa
+id_rsa
+.id_rsa
+
+#####################
+# Private DSA SSH keys
+#####################
+/ssh/id_dsa
+/.ssh/personal_dsa
+/config/server_dsa
+id_dsa
+.id_dsa
+
+#####################
+# Private ed25519 SSH keys
+#####################
+/ssh/id_ed25519
+/.ssh/personal_ed25519
+/config/server_ed25519
+id_ed25519
+.id_ed25519
+
+#####################
+# Private ECDSA SSH keys
+#####################
+/ssh/id_ecdsa
+/.ssh/personal_ecdsa
+/config/server_ecdsa
+id_ecdsa
+.id_ecdsa
+
+#####################
+# Any file with .pem or .key extensions
+#####################
+*.pem
+*.key
+*.crt
+
+#####################
+# Any file ending with _history or .history extension
+#####################
+pry.history
+bash_history
