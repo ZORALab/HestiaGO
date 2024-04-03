@@ -9,6 +9,18 @@ repository for highest attributes of reusablity, smoother learning curves, and a
 more wholesome tools alignments. Develop and learn advanced products easily with
 less worries about supply chain problems.
 
+> [!IMPORTANT]
+>
+> Due to ZORALab's cease of operations, this repository is no longer maintained
+> and is transferred to [Holloway's HestiaGO](https://github.com/ChewKeanHo/LIBS_HestiaGO)
+> for future development and maintenance.
+>
+> The repository is now archived. If you wish to use an updated and maintainable
+> versions, please use the repository linked above.
+>
+> Thank you for patronizing.
+
+
 Visit the official Website for its live deployment, documentations,
 getting started guides, and etc!
 
